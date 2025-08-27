@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>More Papers | Nirmit's Website</title>
+<meta name="generator" content="Jekyll v3.9.5">
+<meta property="og:title" content="More Papers">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Nirmit's Website">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="More Papers">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","headline":"More Papers","name":"Nirmit's Website","url":"/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="./style.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+ <style>
+  /* Define base styles */
+  :root {
+    /* Dark mode colors */
+    --base-text-color: #ffffff;
+    --base-background-color: #000000;
+    --nav-text: #ffffff;
+    --nav-background: #8B6914;
+    --link-color: #F5E6A8;
+    --border-color: rgba(255, 255, 255, 0.1);
+  }
+
+  body {
+    font-family: "AvenirNext-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    background-color: var(--base-background-color);
+    color: var(--base-text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-top: 60px;
+    min-height: 100vh;
+  }
+
+  /* Navigation Bar */
+  nav {
+    background-color: var(--nav-background);
+    color: var(--nav-text);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .nav-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .nav-title a {
+    color: var(--nav-text) !important;
+    text-decoration: none;
+    font-weight: normal;
+    transition: font-weight 0.2s ease;
+  }
+
+  .nav-title a:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .nav-title span {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: var(--nav-text);
+  }
+
+  .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+  }
+
+  .nav-links li a {
+    color: var(--nav-text) !important;
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-weight: normal;
+    transition: font-weight 0.2s ease;
+  }
+
+  .nav-links li a:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* Header Section */
+  header {
+    display: none;
+  }
+
+  /* Image and text wrapper */
+  .image-text-wrapper {
+    display: none;
+  }
+
+  /* Style for the wrapper to center the content */
+  .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em 20px;
+    background-color: var(--base-background-color);
+  }
+
+  /* Ensure text respects new lines and spaces */
+  p, li, a, blockquote {
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin: 1em 0;
+    color: var(--base-text-color);
+    text-align: justify;
+  }
+
+  /* Style links with updated hover behavior */
+  a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 300;
+    transition: font-weight 0.2s ease;
+  }
+
+  /* Updated hover behavior for all links */
+  a:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  /* Additional styling for headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "AvenirNext-Medium", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+  }
+
+  h1 {
+    color: #f8f8f8; /* Very light gray */
+  }
+
+  h2 {
+    color: #f0f0f0; /* Slightly darker light gray */
+  }
+
+  h3 {
+    color: #e8e8e8; /* Light gray */
+  }
+
+  h4 {
+    color: #e0e0e0; /* Medium light gray */
+  }
+
+  h5 {
+    color: #d8d8d8; /* Darker light gray */
+  }
+
+  h6 {
+    color: #d0d0d0; /* Darkest light gray */
+  }
+
+  /* Style for blockquotes */
+  blockquote {
+    color: var(--base-text-color);
+    border-left: 4px solid var(--accent-color);
+    padding-left: 1em;
+    margin: 1em 0;
+    font-weight: 300;
+  }
+
+  /* Responsive adjustments for all devices */
+  @media screen and (max-width: 1260px) {
+    .wrapper, nav ul {
+      max-width: 90%;
+      width: 90%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+
+    .wrapper {
+      max-width: 95%;
+      padding: 1em 10px;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 0.75em;
+      margin-bottom: 0.5em;
+    }
+
+    p, li, blockquote {
+      margin: 0.75em 0;
+    }
+
+    nav {
+      width: 100%;
+      border-radius: 0;
+    }
+    
+    nav ul {
+      width: 95%;
+      max-width: 95%;
+      padding: 0 10px;
+      gap: 10px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    body {
+      font-size: 13px;
+    }
+
+    .wrapper {
+      padding: 1em;
+    }
+
+    em, i {
+      font-weight: 500;
+    }
+
+    p, li, blockquote {
+      margin: 0.5em 0;
+    }
+  }
+
+  /* Ensure content is always visible and scrollable */
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Improve touch and click targets on mobile */
+  a, button {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Improve readability on high-DPI screens */
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    body {
+      -webkit-font-smoothing: subpixel-antialiased;
+    }
+  }
+
+  strong, b {
+    color: inherit; /* Use the same color as surrounding text */
+    font-weight: bold;
+  }
+
+  /* Updated Responsive Navigation Bar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--nav-background);
+    color: var(--nav-text);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 60px;
+  }
+
+  .nav-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+
+  /* Updated nav-list structure for left and right alignment */
+  .nav-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: baseline;
+    gap: 5px;
+    flex: 1;
+    justify-content: space-between;
+    align-self: flex-end;
+    padding-bottom: 5px;
+  }
+
+  .nav-left {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+  }
+
+  .nav-right {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+    margin-left: auto;
+  }
+
+  .nav-list li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-list li a {
+    color: var(--nav-text) !important;
+    text-decoration: none;
+    padding: 8px 8px;
+    display: inline-block;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-align: center;
+    font-weight: normal;
+    transition: font-weight 0.2s ease;
+  }
+
+  .nav-list li a:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      min-height: 50px;
+      padding: 5px 15px;
+    }
+
+    .nav-title {
+      width: auto;
+    }
+
+    .menu-toggle {
+      display: block;
+      padding: 5px;
+    }
+
+    .nav-list {
+      display: none;
+      position: fixed;
+      top: 50px;
+      right: 0;
+      width: auto;
+      min-width: 150px;
+      background-color: var(--nav-background);
+      flex-direction: column;
+      align-items: flex-start;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      z-index: 1000;
+      margin: 0;
+      padding: 0;
+      height: fit-content;
+    }
+
+    .nav-list.active {
+      display: flex;
+    }
+
+    .nav-left,
+    .nav-right {
+      flex-direction: column;
+      width: 100%;
+      gap: 0;
+    }
+
+    .nav-list li {
+      width: 100%;
+      border-top: 1px solid var(--border-color);
+      background-color: var(--nav-background);
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-list li:last-child {
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 0;
+    }
+
+    .nav-list li a {
+      padding: 6px 15px;
+      font-size: 14px;
+      width: 100%;
+      text-align: center;
+      box-sizing: border-box;
+      display: block;
+      margin: 0;
+    }
+
+    /* Ensure content stays below navbar */
+    .wrapper {
+      padding: 1em 15px;
+      margin-top: 50px;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  /* Remove extra spacing and lines */
+  .wrapper section {
+    display: none; /* Hide empty sections */
+  }
+
+  @media screen and (max-width: 768px) {
+    .wrapper {
+      margin-bottom: 0; /* Remove bottom margin */
+    }
+
+    section {
+      margin: 0;
+      padding: 0;
+      border: none; /* Remove any borders */
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbar {
+      min-height: 50px;
+      padding: 5px 15px;
+    }
+
+    .wrapper {
+      padding: 1em 15px;
+    }
+  }
+
+  /* Style for paper venues - reduce spacing */
+  .paper-venue {
+    margin-top: -0.5em;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+
+  .paper-venue em {
+    font-style: italic;
+    color: var(--base-text-color);
+  }
+
+  /* Style for special presentation types (oral, spotlight, etc.) */
+  .presentation-highlight {
+    color: #58a6ff;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 0.9em;
+    letter-spacing: 0.5px;
+  }
+
+  /* Updated Google Scholar link styles */
+  .google-scholar-link {
+    margin-top: 3em;
+    text-align: left;
+  }
+
+  .google-scholar-link a {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    transition: font-weight 0.2s ease;
+  }
+
+  .google-scholar-link a:hover {
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .scholar-icon {
+  font-size: 18px;
+  color: #4285F4; /* Google blue */
+  flex-shrink: 0;
+}
+
+  /* Single column layout for papers page */
+  .single-column .wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2em 20px;
+    display: block;
+  }
+
+  /* Research page specific styles */
+  .single-column ol {
+    padding-left: 20px;
+    margin: 0.5em 0;
+  }
+
+  .single-column ol li {
+    margin: 0.8em 0;
+  }
+
+  .single-column ol li p {
+    margin: 0.2em 0;
+  }
+
+  /* Fix heading spacing */
+  .single-column h1 {
+    margin-bottom: 0.8em;
+  }
+
+  .single-column h2 {
+    margin-top: 1.2em;
+    margin-bottom: 0.8em;
+  }
+
+  .single-column h3 {
+    margin-top: 1em;
+    margin-bottom: 0.6em;
+  }
+
+  /* Fix text wrapping and alignment */
+  .single-column p, 
+  .single-column li {
+    white-space: normal;
+    text-align: left;
+  }
+
+  /* Style for publication titles and author names */
+  .single-column strong {
+    display: inline-block;
+    margin-bottom: 0.2em;
+  }
+</style>
+  </head>
+  <body class="single-column" data-new-gr-c-s-check-loaded="14.1249.0" data-gr-ext-installed="">
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <span class="nav-title"><a href="./Nirmit's website.html">Nirmit Joshi</a></span>
+      <div class="menu-toggle" onclick="toggleMenu()">â˜°</div>
+      <ul class="nav-list">
+        <div class="nav-left">
+          <!-- Left-aligned nav items would go here -->
+          <!-- <li><a href="https://www.surbhigoel.com/">About</a></li>
+          <li><a href="https://www.surbhigoel.com/research/">Research</a></li> -->
+        </div>
+        <div class="nav-right">
+          <!-- Right-aligned nav items -->
+          <li><a href="./more_papers.html">More Papers</a></li>
+          <!-- Add more right-aligned items here -->
+          <!-- <li><a href="#cv">CV</a></li> -->
+          <!-- <li><a href="#contact">Contact</a></li> -->
+        </div>
+      </ul>
+    </nav>
+
+    <div class="wrapper">
+        <h1>More Papers</h1>
+        <hr>
+
+        <!-- <h2>Conference Papers</h2> -->
+        <ul>
+            <li><p><strong><a href="https://arxiv.org/abs/2506.09887">Learning single-index models via harmonic decomposition</a></strong><br>
+Nirmit Joshi, Hugo Koubbi, Theodor Misiakiewicz, Nathan Srebro
+<div class="paper-venue"><em>Preprint</em></div></p></li>
+            <li><p><strong><a href="https://arxiv.org/abs/2503.07932">A Theory of Learning with Autoregressive Chain of Thought</a></strong><br>
+Nirmit Joshi, Gal Vardi, Adam Block, Surbhi Goel, Zhiyuan Li, Theodor Misiakiewicz, Nathan Srebro
+<div class="paper-venue"><em>COLT 2025</em></div></p></li>
+            <li><p><strong><a href="https://arxiv.org/abs/2406.13075">Exact Community Recovery under Side Information: Optimality of Spectral Algorithms</a></strong><br>
+Julia Gaudio, Nirmit Joshi
+<div class="paper-venue"><em>ICLR 2025</em></div></p></li>
+            <li><p><strong><a href="https://arxiv.org/abs/2407.05622">On the Complexity of Learning Sparse Functions with Statistical and Gradient Queries</a></strong><br>
+Nirmit Joshi, Theodor Misiakiewicz, Nathan Srebro
+<div class="paper-venue"><em>NeurIPS 2024</em></div></p></li>
+            <li><p><strong><a href="https://arxiv.org/abs/2307.15396">Noisy Interpolation Learning with Shallow Univariate ReLU Networks</a></strong><br>
+Nirmit Joshi, Gal Vardi, Nathan Srebro
+<div class="paper-venue"><em>ICLR 2024</em> <span class="presentation-highlight">Spotlight</span></div></p></li>
+            <li><p><strong><a href="https://arxiv.org/abs/2208.12227">Community Detection in the Hypergraph SBM: Exact Recovery Given the Similarity Matrix</a></strong><br>
+Julia Gaudio, Nirmit Joshi
+<div class="paper-venue"><em>COLT 2023</em></div></p></li>
+        </ul>
+
+        <div class="google-scholar-link">
+            <a href="https://scholar.google.com/citations?user=VYVwnt4AAAAJ&hl=en" target="_blank">
+                <span class="scholar-icon">🎓</span></a>
+                Check <a href="https://scholar.google.com/citations?user=VYVwnt4AAAAJ&hl=en" target="_blank">all papers</a>.
+        </div>
+
+        <div style="margin-top: 3em; font-size: 11px; color: #888; text-align: right;">
+            <em>I adapted this website from <a href="https://www.surbhigoel.com/" target="_blank" style="color: #999;">Surbhi Goel</a>.</em>
+        </div>
+    </div>
+    
+    <script>
+      function toggleMenu() {
+        const navList = document.querySelector('.nav-list');
+        navList.classList.toggle('active');
+      }
+    </script>
+    <script src="./scale.fix.js"></script>
+  
+<grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;limited&quot;,&quot;isActive&quot;:false,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></body></html>
